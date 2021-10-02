@@ -53,8 +53,7 @@ public class QueuewithArrayTest {
 	   public ExpectedException thrown = ExpectedException.none();
 	@Test(expected = NullPointerException.class)
 public void NullPointerTest() {
-  QueueObj.dequeue();
-	   assertEquals(null, QueueObj);
+	   assertEquals(null,  QueueObj.dequeue());
 	   thrown.expect(NullPointerException.class);
 	   throw new NullPointerException();
 	   }*/
